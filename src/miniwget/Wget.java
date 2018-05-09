@@ -1,33 +1,36 @@
 package miniwget;
 
-import java.io.BufferedReader;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import javax.swing.*;
+import java.io.*;
 import java.net.URL;
 import java.util.Scanner;
 
 public class Wget {
 
     public static void downloadPage(){
+        //URL of a web page
         URL url;
+        //Input stream
         InputStream inputStream = null;
-        BufferedReader bufferedReader;
-        String line, web_url = "";
-        try{
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Write the URL of a web page");
-            web_url = scanner.nextLine();
-            url = new URL(web_url);
-            inputStream = url.openStream();
-            bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+        //Here we store the url
+        String web_url = "";
+        web_url = JOptionPane.showInputDialog(null, "What page do you want to clone?");
 
-            String content="";
-            while((line = bufferedReader.readLine()) != null){
-                //System.out.println(line);
-                content += line;
+        try{
+            //Creating a connection
+            url = new URL(web_url);
+            //Getting the input stream of a web page
+            inputStream = url.openStream();
+            //Creating a File Output Stream
+            FileOutputStream fileOutputStream = new FileOutputStream("INDICEP.html");
+            //We need bytes 'cause we gonna create a file
+            byte[] bytes = new byte[1500];
+            int n = 0;
+            //We get input stream while inputStream returns more than 0
+            while((n = inputStream.read(bytes)) > 0){
+                fileOutputStream.write(bytes,0,n);
             }
-            System.out.println(content);
+            fileOutputStream.close();
 
         } catch (Exception e) {
             System.err.println("An exception has occurred downloading " + web_url);
