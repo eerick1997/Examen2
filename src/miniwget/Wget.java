@@ -17,14 +17,18 @@ public class Wget {
         try{
             Scanner scanner = new Scanner(System.in);
             System.out.println("Write the URL of a web page");
-            //web_url = scanner.nextLine();
+            web_url = scanner.nextLine();
             url = new URL(web_url);
             inputStream = url.openStream();
             bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 
+            String content="";
             while((line = bufferedReader.readLine()) != null){
-                System.out.println(line);
+                //System.out.println(line);
+                content += line;
             }
+            System.out.println(content);
+
         } catch (Exception e) {
             System.err.println("An exception has occurred downloading " + web_url);
         }
