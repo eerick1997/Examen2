@@ -3,6 +3,7 @@ package miniwget;
 import javax.swing.*;
 import java.io.*;
 import java.net.URL;
+import lexer_wget.*;
 
 public class Wget {
 
