@@ -8,7 +8,7 @@ public class Lexer {
 
     public void order_HTML(String messy_HTML){
         String FILE = "main_web.html";      /**/
-        saveFile file = new saveFile(FILE);
+        SaveFile file = new SaveFile(FILE);
         StringBuffer HTML = new StringBuffer("");
 
         try {
