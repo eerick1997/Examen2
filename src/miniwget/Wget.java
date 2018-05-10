@@ -3,13 +3,13 @@ package miniwget;
 import javax.swing.*;
 import java.io.*;
 import java.net.URL;
-import lexer_wget.*;
+import tools_wget.*;
 
 public class Wget {
 
     public static void downloadPage(){
         String messy_HTML= "INDICEP.html";
-        Lexicografico lexer = new Lexicografico();
+        Lexer lexer = new Lexer();
         //URL of a web page
         URL url;
         //Input stream
