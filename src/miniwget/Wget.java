@@ -3,9 +3,17 @@ package miniwget;
 import javax.swing.*;
 import java.io.*;
 import java.net.URL;
+
+import Directories.CreateTreeDir;
 import tools_wget.*;
 
+/**
+ * Wget is a class that allow us to download a resource or a web page if
+ * we give it an URL
+ * **/
 public class Wget {
+
+    //public static CreateTreeDir createTreeDir;
 
     public static void downloadPage(){
         String messy_HTML= "INDICEP.html";
@@ -17,7 +25,14 @@ public class Wget {
         //Here we store the url
         String web_url = "";
         web_url = JOptionPane.showInputDialog(null, "What page do you want to clone?");
-
+        /** BEGIN TESTING CREATING DIRECTORIES **/
+        try {
+            CreateTreeDir createTreeDir = new CreateTreeDir();
+            createTreeDir.create("Examen3\\Examen2\\Examen1");
+        } catch (Exception e){
+            System.err.println("Error making tree directory" + e);
+        }
+        /** END CREATING DIRECTORIES **/
         try{
             //Creating a connection
             url = new URL(web_url);
