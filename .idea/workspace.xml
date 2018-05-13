@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4c29a415-9c8c-42ae-99c7-0dd521ae46df" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-=======
+      <change beforePath="$PROJECT_DIR$/google.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Examen2/Directories/CreateTreeDir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Directories/CreateTreeDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examen2/miniwget/Directories/CreateTreeDir.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Directories/CreateTreeDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miniwget/Wget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/Wget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tools_wget/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/tools_wget/Lexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tools_wget/SaveFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/tools_wget/SaveFile.java" afterDir="false" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
+      <change beforePath="$PROJECT_DIR$/out/production/Examen2/tools_wget/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Examen2/tools_wget/SaveFile.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,32 +19,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Wget.java" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="Wget.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="901">
-              <caret line="59" column="43" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="43" />
+            <state relative-caret-position="373">
+              <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#356#1930#0" expanded="true" />
+                <element signature="e#1929#1930#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CreateTreeDir.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Directories/CreateTreeDir.java">
+        <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-=======
-            <state relative-caret-position="187">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -60,6 +51,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</find>
+      <find>=======</find>
+      <find>69d10bf0a50220976a6587d4830ae813eccc92a2</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,6 +67,7 @@
         <option value="$PROJECT_DIR$/src/tools_wget/Lexer.java" />
         <option value="$PROJECT_DIR$/src/Directories/CreateTreeDir.java" />
         <option value="$PROJECT_DIR$/src/miniwget/Wget.java" />
+        <option value="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" />
       </list>
     </option>
   </component>
@@ -93,28 +92,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-=======
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Examen2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Examen2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen2" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen2" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Examen2" type="b2602c69:ProjectViewProjectNode" />
@@ -134,21 +117,12 @@
               <item name="miniwget" type="462c0819:PsiDirectoryNode" />
               <item name="Directories" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Examen2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="miniwget" type="462c0819:PsiDirectoryNode" />
-              <item name="tools_wget" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
       <pane id="PackagesPane" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -314,117 +288,105 @@
       <option name="project" value="LOCAL" />
       <updated>1526175207447</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Test getting info inside href tags">
+      <created>1526254023705</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1526254023705</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="43916000" />
+    <option name="totallyTimeSpent" value="47950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-=======
-    <option name="totallyTimeSpent" value="44067000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32827586" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14583333" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" weight="0.32965517" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32827586" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Learn" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14583333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32827586" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Learn" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-=======
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14583333" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32827586" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32827586" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14583333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Learn" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,43 +404,44 @@
     <MESSAGE value="In this update I've changed the output of the program, now the output is a file that contains the web page" />
     <MESSAGE value="This update works fine." />
     <MESSAGE value="This update contains a new class called CreateTreeDir, an also Ive added an example of the use in the class Wget" />
-<<<<<<< HEAD
     <MESSAGE value="This update contains a new class called CreateTreeDir, an also Ive added an example of the use in the class Wget x2" />
     <MESSAGE value="This update contains new Methods called searchUrls and searchImages" />
     <MESSAGE value="This update contains new Methods called searchUrls and searchImages x2" />
-    <option name="LAST_COMMIT_MESSAGE" value="This update contains new Methods called searchUrls and searchImages x2" />
-=======
-    <option name="LAST_COMMIT_MESSAGE" value="This update contains a new class called CreateTreeDir, an also Ive added an example of the use in the class Wget" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
+    <MESSAGE value="Test getting info inside href tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test getting info inside href tags" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="901">
-          <caret line="59" column="43" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="43" />
-=======
-        <state relative-caret-position="442">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
+        <state relative-caret-position="218">
+          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Directories/CreateTreeDir.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-=======
+        <state relative-caret-position="306">
+          <caret line="659" column="58" selection-start-line="659" selection-start-column="58" selection-end-line="659" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Directories/CreateTreeDir.java" />
     <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -488,7 +451,8 @@
         <state relative-caret-position="663">
           <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,7 +462,8 @@
         <state relative-caret-position="391">
           <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -565,9 +530,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,7 +542,8 @@
         <state relative-caret-position="476">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,7 +560,8 @@
         <state relative-caret-position="476">
           <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -611,7 +578,8 @@
         <state relative-caret-position="663">
           <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,7 +589,8 @@
         <state relative-caret-position="391">
           <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -677,33 +646,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="901">
-          <caret line="59" column="43" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="43" />
-=======
-        <state relative-caret-position="-684">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
+        <state relative-caret-position="373">
+          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#356#1930#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="303">
-          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-=======
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
->>>>>>> 69d10bf0a50220976a6587d4830ae813eccc92a2
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
