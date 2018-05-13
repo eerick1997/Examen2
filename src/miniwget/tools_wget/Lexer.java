@@ -1,7 +1,6 @@
-package tools_wget;
+package miniwget.tools_wget;
 
 import java.io.*;
-import java.net.URL;
 import java.util.StringTokenizer;
 
 public class Lexer {
