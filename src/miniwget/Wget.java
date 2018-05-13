@@ -1,12 +1,12 @@
 package miniwget;
 
-import javax.swing.*;
+
 import java.io.*;
 import java.net.URL;
-import java.util.ArrayList;
 
-import Directories.CreateTreeDir;
-import tools_wget.*;
+import miniwget.Directories.*;
+
+
 
 /**
  * Wget is a class that allow us to download a resource or a web page if

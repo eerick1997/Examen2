@@ -1,4 +1,4 @@
-package tools_wget;
+package miniwget.tools_wget;
 
 
 import java.io.*;

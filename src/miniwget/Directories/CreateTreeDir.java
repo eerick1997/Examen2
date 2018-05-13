@@ -1,13 +1,11 @@
-package Directories;
-
-import miniwget.Wget;
+package miniwget.Directories;
 
 import java.io.File;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**This class create a tree directories if we
- * give it a path. Directories are make them in
+ * give it a path. miniwget.Directories are make them in
  * the root of our project                      **/
 public class CreateTreeDir {
 
