@@ -36,7 +36,7 @@ public class CreateTreeDir {
         Pattern pattern = Pattern.compile("(?i)HREF\\s*=\\s*\"(.*?)\"");
         Matcher matcher = pattern.matcher(str);
         while(matcher.find()){
-
+            System.out.println(matcher.group(1));
         }
     }
 
