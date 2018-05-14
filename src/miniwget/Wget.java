@@ -49,7 +49,7 @@ public class Wget{
                         fileOutputStream.write(bytes,0,n);
                     }
                     //System.out.println(result);
-                    createTreeDir.searchUrls(result);
+                    createTreeDir.searchImages(result);
                     fileOutputStream.close();
 
                 } catch (Exception e) {
@@ -63,8 +63,7 @@ public class Wget{
 
     public static void main(String[] args){
         Wget wget = new Wget();
-        //wget.downloadPage("https://coderanch.com/t/541740/languages/JDOM-adding-elements-existing-XML", "JDOM-adding-elements-existing-XML.html");
-        wget.downloadPage("https://www.google.com/", "index.html");
+        wget.downloadPage("http://www.gifmania.com","Gifmania.html");
 
     }
 

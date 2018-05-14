@@ -1,5 +1,7 @@
 package miniwget.Directories;
 
+import miniwget.Wget;
+
 import java.io.File;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -35,17 +37,62 @@ public class CreateTreeDir {
         System.out.println("CreateTreeDir.searchUrls");
         Pattern pattern = Pattern.compile("(?i)HREF\\s*=\\s*\"(.*?)\"");
         Matcher matcher = pattern.matcher(str);
+        Wget wget=new Wget();
+        String urlx2="a";
+
         while(matcher.find()){
-            System.out.println(matcher.group(1));
+
+            String urlx=matcher.group(1);
+            if(urlx.contains("http")||urlx.contains("http"))
+            {
+                System.out.println("Elemento encontrado: "+urlx);
+                wget.downloadPage(urlx,urlx2+".html");
+                urlx2+="a";
+            }
+            /*else if(urlx.contains("png"))
+            {
+                System.out.println("Imagen png encontrada: "+urlb);
+                wget.downloadPage(urlb,urlb+".png");
+                urlb+="a";
+            }*/
+
         }
     }
 
     public void searchImages(String str) throws Exception{
         System.out.println("CreateTreeDir.searchImages");
-        Pattern pattern = Pattern.compile("(?i)src\\s*=\\s*\"(.*?)");
+        //Pattern pattern = Pattern.compile("(?i)src\\s*=\\s*\"(.*?)");
+        Pattern pattern = Pattern.compile("(?i)src\\s*=\\s*\"(.*?)\"");
         Matcher matcher = pattern.matcher(str);
+        Wget wget2=new Wget();
+        String urlb="b";
         while(matcher.find()){
+            String urlimg=matcher.group(1);
 
+            if(urlimg.contains("png"))
+            {
+                System.out.println("Imagen png encontrada: "+urlimg);
+                wget2.downloadPage(urlimg,urlb+".png");
+                urlb+="a";
+            }
+            else if(urlimg.contains("jpg"))
+            {
+                System.out.println("Imagen jpg encontrada: "+urlimg);
+                wget2.downloadPage(urlimg,urlb+".jpg");
+                urlb+="a";
+            }
+            else if(urlimg.contains("jpeg"))
+            {
+                System.out.println("Imagen jpeg encontrada: "+urlimg);
+                wget2.downloadPage(urlimg,urlb+".jpeg");
+                urlb+="a";
+            }
+            else if(urlimg.contains("gif"))
+            {
+                System.out.println("Imagen gif encontrada: "+urlimg);
+                wget2.downloadPage(urlimg,urlb+".gif");
+                urlb+="a";
+            }
         }
     }
 
