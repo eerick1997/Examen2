@@ -3,6 +3,8 @@ package miniwget.Directories;
 import miniwget.Wget;
 
 import java.io.File;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -59,41 +61,92 @@ public class CreateTreeDir {
         }
     }
 
-    public void searchImages(String str) throws Exception{
+    public void searchImages(String str, String urlprincipal) throws Exception{
         System.out.println("CreateTreeDir.searchImages");
         //Pattern pattern = Pattern.compile("(?i)src\\s*=\\s*\"(.*?)");
         Pattern pattern = Pattern.compile("(?i)src\\s*=\\s*\"(.*?)\"");
         Matcher matcher = pattern.matcher(str);
         Wget wget2=new Wget();
         String urlb="b";
+        //  Matcher matcher = pattern.matcher(url.toString());
+        //System.out.println(url.toString());
+        //wget2.downloadPage(url.toString(),"hola.ico");
         while(matcher.find()){
             String urlimg=matcher.group(1);
-
-            if(urlimg.contains("png"))
+            if(urlimg.contains(".png"))
             {
                 System.out.println("Imagen png encontrada: "+urlimg);
-                wget2.downloadPage(urlimg,urlb+".png");
+                if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
+                {
+                    wget2.downloadPage(urlimg,urlb+".png");
+                }
+                else
+                {
+                    wget2.downloadPage(urlprincipal+urlimg,urlb+".png");
+                    System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+                }
                 urlb+="a";
+
             }
-            else if(urlimg.contains("jpg"))
+            else if(urlimg.contains(".jpg"))
             {
                 System.out.println("Imagen jpg encontrada: "+urlimg);
-                wget2.downloadPage(urlimg,urlb+".jpg");
+                if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
+                {
+                    wget2.downloadPage(urlimg,urlb+".jpg");
+                }
+                else
+                {
+                    wget2.downloadPage(urlprincipal+urlimg,urlb+".jpg");
+                    System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+                }
                 urlb+="a";
             }
-            else if(urlimg.contains("jpeg"))
+            else if(urlimg.contains(".jpeg"))
             {
-                System.out.println("Imagen jpeg encontrada: "+urlimg);
-                wget2.downloadPage(urlimg,urlb+".jpeg");
+                System.out.println("Imagen png encontrada: "+urlimg);
+                if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
+                {
+                    wget2.downloadPage(urlimg,urlb+".jpeg");
+                }
+                else
+                {
+                    wget2.downloadPage(urlprincipal+urlimg,urlb+".jpeg");
+                    System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+                }
                 urlb+="a";
             }
-            else if(urlimg.contains("gif"))
+            else if(urlimg.contains(".gif"))
             {
-                System.out.println("Imagen gif encontrada: "+urlimg);
-                wget2.downloadPage(urlimg,urlb+".gif");
+                System.out.println("Imagen png encontrada: "+urlimg);
+                if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
+                {
+                    wget2.downloadPage(urlimg,urlb+".gif");
+                }
+                else
+                {
+                    wget2.downloadPage(urlprincipal+urlimg,urlb+".gif");
+                    System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+                }
                 urlb+="a";
             }
+            else if(urlimg.contains(".ico"))
+            {
+                System.out.println("Imagen ico encontrada: "+urlimg);
+                if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
+                {
+                    wget2.downloadPage(urlimg,urlb+".ico");
+                }
+                else
+                {
+                    wget2.downloadPage(urlprincipal+urlimg,urlb+".ico");
+                    System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+                }
+                urlb+="a";
+            }
+
         }
+
     }
 
     private String getNameFile(String str){

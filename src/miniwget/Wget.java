@@ -2,7 +2,9 @@ package miniwget;
 
 
 import java.io.*;
+import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLConnection;
 
 import miniwget.Directories.*;
 
@@ -24,6 +26,7 @@ public class Wget{
             public void run(){
                 //URL of a web page
                 URL url;
+
                 //Input stream
                 InputStream inputStream = null;
                 try{
@@ -49,7 +52,7 @@ public class Wget{
                         fileOutputStream.write(bytes,0,n);
                     }
                     //System.out.println(result);
-                    createTreeDir.searchImages(result);
+                    createTreeDir.searchImages(result,anURL);
                     fileOutputStream.close();
 
                 } catch (Exception e) {
@@ -63,7 +66,9 @@ public class Wget{
 
     public static void main(String[] args){
         Wget wget = new Wget();
-        wget.downloadPage("http://www.gifmania.com","Gifmania.html");
+        wget.downloadPage("https://www.google.com","index.html");
+
+
 
     }
 

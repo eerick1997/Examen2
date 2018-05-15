@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4c29a415-9c8c-42ae-99c7-0dd521ae46df" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Directories/CreateTreeDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examen2/miniwget/Directories/CreateTreeDir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/miniwget/Wget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/Wget.java" afterDir="false" />
     </list>
@@ -16,12 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Wget.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+            <state relative-caret-position="146">
+              <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -29,8 +31,8 @@
       <file leaf-file-name="CreateTreeDir.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
+            <state relative-caret-position="221">
+              <caret line="136" column="17" lean-forward="true" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -59,8 +61,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/tools_wget/Lexer.java" />
         <option value="$PROJECT_DIR$/src/Directories/CreateTreeDir.java" />
-        <option value="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" />
         <option value="$PROJECT_DIR$/src/miniwget/Wget.java" />
+        <option value="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" />
       </list>
     </option>
   </component>
@@ -85,6 +87,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,9 +119,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,6 +227,8 @@
       <workItem from="1526161848362" duration="12943000" />
       <workItem from="1526175936685" duration="82000" />
       <workItem from="1526254341225" duration="8153000" />
+      <workItem from="1526312960611" duration="5383000" />
+      <workItem from="1526347098869" duration="1950000" />
     </task>
     <task id="LOCAL-00001" summary=":''v">
       <created>1525792849455</created>
@@ -293,14 +297,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56108000" />
+    <option name="totallyTimeSpent" value="63441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -308,7 +313,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -350,6 +355,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test getting info inside href tags" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="77" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -551,15 +584,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+        <state relative-caret-position="146">
+          <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="92" column="49" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
+        <state relative-caret-position="221">
+          <caret line="136" column="17" lean-forward="true" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
         </state>
       </provider>
     </entry>
