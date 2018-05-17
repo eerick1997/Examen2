@@ -35,7 +35,7 @@ public class CreateTreeDir {
      * regular expressions. The regular expression has been made using a Pattern object
      * and Matcher object.
      * **/
-    public void searchUrls(String str) throws Exception{
+    public void searchUrls(String str, String url_principal) throws Exception{
         System.out.println("CreateTreeDir.searchUrls");
         Pattern pattern = Pattern.compile("(?i)HREF\\s*=\\s*\"(.*?)\"");
         Matcher matcher = pattern.matcher(str);
@@ -43,19 +43,67 @@ public class CreateTreeDir {
         String urlx2="a";
 
         while(matcher.find()){
-
-            String urlx=matcher.group(1);
+            String url_x=matcher.group(1);
             //inicio de cambios
 
             //fin de cambios
-            if(urlx.contains("http")||urlx.contains("http"))
+            /*if(url_x.contains("http")||url_x.contains("https"))
             {
-                System.out.println("Elemento encontrado: "+urlx);
-                wget.downloadPage(urlx,urlx2+".html");
+                System.out.println("Elemento encontrado: "+url_x);
+                String[] url_URIS = url_x.split(".html");
+                wget.downloadPage(url_x,urlx2+".html");
                 urlx2+="a";
+            }*/
+            if(url_x.contains(".html") || url_x.contains(".htm")){ /*Found a HTML file*/
+                System.out.println("Elemento encontrado: "+url_x);
+                String[] url_HTML = url_x.split(".html");
+                System.out.println("URL-HTML: "+url_HTML[0]+".html");
+                URL url_content_HTML = new URL(url_principal+url_HTML[0]+".html");
+                String new_HTML = url_content_HTML.toString();
+
+                int cont = 0;
+                for(int i=0; i< new_HTML.length();i++){
+                    if (new_HTML.charAt(i) == '/')
+                        cont++;
+                }
+
+                System.out.println("Contador: "+cont);
+                String[] parts = new_HTML.split("/");
+                System.out.println("Imprimir: "+parts[cont]);
+            }else if(url_x.contains(".css") ){
+                System.out.println("Elemento encontrado: "+url_x);
+                String[] url_css = url_x.split(".css");
+                System.out.println("URL-CSS: "+url_css[0]+".css");
+                URL url_content_css = new URL(url_principal+url_css[0]+".css");
+                String new_css = url_content_css.toString();
+
+                int cont = 0;
+                for(int i=0; i< new_css.length();i++){
+                    if (new_css.charAt(i) == '/')
+                        cont++;
+                }
+
+                System.out.println("Contador: "+cont);
+                String[] parts = new_css.split("/");
+                System.out.println("Imprimir: "+parts[cont]);
             }
+            else if(url_x.contains(".php") ){
+                System.out.println("Elemento encontrado: "+url_x);
+                String[] url_php = url_x.split(".html");
+                System.out.println("URL-PHP: "+url_php[0]+".php");
+                URL url_content_php = new URL(url_principal+url_php[0]+".php");
+                String new_php = url_content_php.toString();
 
+                int cont = 0;
+                for(int i=0; i< new_php.length();i++){
+                    if (new_php.charAt(i) == '/')
+                        cont++;
+                }
 
+                System.out.println("Contador: "+cont);
+                String[] parts = new_php.split("/");
+                System.out.println("Imprimir: "+parts[cont]);
+            }
         }
     }
 
@@ -130,7 +178,6 @@ public class CreateTreeDir {
                 if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
                 {
                     wget2.downloadPage(urlimg,parts[contador]);
-
                 }
                 else
                 {
