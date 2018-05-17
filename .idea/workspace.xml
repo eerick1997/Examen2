@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4c29a415-9c8c-42ae-99c7-0dd521ae46df" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Directories/CreateTreeDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examen2/miniwget/Directories/CreateTreeDir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examen2/miniwget/Wget.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/miniwget/Wget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/Wget.java" afterDir="false" />
     </list>
@@ -17,24 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Wget.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Wget.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+            <state relative-caret-position="119">
+              <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
               <folding>
-                <element signature="e#485#2214#0" expanded="true" />
-                <element signature="e#2213#2214#0" expanded="true" />
+                <element signature="e#560#2564#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateTreeDir.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateTreeDir.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="293" column="33" lean-forward="true" selection-start-line="293" selection-start-column="33" selection-end-line="293" selection-end-column="33" />
+            <state relative-caret-position="-1784">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -53,6 +53,10 @@
       <find>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</find>
       <find>=======</find>
       <find>69d10bf0a50220976a6587d4830ae813eccc92a2</find>
+      <find>System.out.println</find>
+      <find>0316</find>
+      <find>wget</find>
+      <find>create</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,8 +67,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/tools_wget/Lexer.java" />
         <option value="$PROJECT_DIR$/src/Directories/CreateTreeDir.java" />
-        <option value="$PROJECT_DIR$/src/miniwget/Wget.java" />
         <option value="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" />
+        <option value="$PROJECT_DIR$/src/miniwget/Wget.java" />
       </list>
     </option>
   </component>
@@ -406,11 +410,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526254023705</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Test getting info inside href tags">
+      <created>1526573561322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1526573561322</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71091000" />
+    <option name="totallyTimeSpent" value="78097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -426,7 +437,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3475862" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -545,8 +556,7 @@
         <state relative-caret-position="187">
           <caret line="42" column="51" lean-forward="true" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
           <folding>
-            <element signature="e#485#2214#0" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
+            <element signature="e#560#2564#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -556,8 +566,7 @@
         <state relative-caret-position="918">
           <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
           <folding>
-            <element signature="e#485#2214#0" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
+            <element signature="e#560#2564#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -796,21 +805,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
-          <folding>
-            <element signature="e#485#2214#0" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1784">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="293" column="33" lean-forward="true" selection-start-line="293" selection-start-column="33" selection-end-line="293" selection-end-column="33" />
+        <state relative-caret-position="119">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <element signature="e#560#2564#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

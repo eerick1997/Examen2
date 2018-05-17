@@ -18,8 +18,8 @@ public class Wget{
 
     //public static CreateTreeDir createTreeDir;
 
-    public void downloadPage(final String anURL, final String name_file){
-
+    public void downloadPage(String anURL, String name_file){
+        System.out.println("anURL = [" + anURL + "], name_file = [" + name_file + "]");
         //Creating a thread to download a page
         Thread thread = new Thread(){
             @Override
@@ -30,9 +30,12 @@ public class Wget{
                 //Input stream
                 InputStream inputStream = null;
                 try{
+
                     File file = new File(name_file);
+
                     if(file.exists())
                         return;
+
 
                     String result = "";
                     CreateTreeDir createTreeDir = new CreateTreeDir();
@@ -53,13 +56,14 @@ public class Wget{
                     }
                     //System.out.println(result);
                     //****Uncomment to download images
-                    //createTreeDir.searchImages(result,anURL);
+                    createTreeDir.searchImages(result,anURL);
                     //****Uncomment to download intern URL's
                     createTreeDir.searchUrls(result, anURL);
                     fileOutputStream.close();
 
                 } catch (Exception e) {
                     System.err.println("An exception has occurred downloading " + anURL);
+                    System.err.println(e);
                 }
             }
         };
@@ -69,10 +73,7 @@ public class Wget{
 
     public static void main(String[] args){
         Wget wget = new Wget();
-        wget.downloadPage("https://www.google.com","index.html");
-
-
-
+        wget.downloadPage("https://www.facebook.com","index.html");
     }
 
 }
