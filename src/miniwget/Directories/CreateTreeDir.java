@@ -45,18 +45,16 @@ public class CreateTreeDir {
         while(matcher.find()){
 
             String urlx=matcher.group(1);
+            //inicio de cambios
+
+            //fin de cambios
             if(urlx.contains("http")||urlx.contains("http"))
             {
                 System.out.println("Elemento encontrado: "+urlx);
                 wget.downloadPage(urlx,urlx2+".html");
                 urlx2+="a";
             }
-            /*else if(urlx.contains("png"))
-            {
-                System.out.println("Imagen png encontrada: "+urlb);
-                wget.downloadPage(urlb,urlb+".png");
-                urlb+="a";
-            }*/
+
 
         }
     }
@@ -76,73 +74,174 @@ public class CreateTreeDir {
             if(urlimg.contains(".png"))
             {
                 System.out.println("Imagen png encontrada: "+urlimg);
+                //Inicio de cambios
+                String[]urlimgchida=urlimg.split(".png");
+                System.out.println("urlimgchida:"+urlimgchida[0]+".png");
+                URL urlxas=new URL(urlprincipal+urlimgchida[0]+".png");
+                String nuevo=urlxas.toString();
+                int contador=0;
+                for(int i=0;i<nuevo.length();i++)
+                {
+                    if(nuevo.charAt(i)=='/')
+                    {
+                        contador++;
+                    }
+                }
+                System.out.println("contador:"+contador);
+                String[]parts=nuevo.split("/");
+                System.out.println("imprimir:"+parts[contador]);
+                //Fin de cambios
+
                 if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
                 {
-                    wget2.downloadPage(urlimg,urlb+".png");
+                    wget2.downloadPage(urlimg,parts[contador]);
+
                 }
                 else
                 {
-                    wget2.downloadPage(urlprincipal+urlimg,urlb+".png");
+                    wget2.downloadPage(urlprincipal+urlimg,parts[contador]);
                     System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+
                 }
-                urlb+="a";
+                contador=0;
 
             }
             else if(urlimg.contains(".jpg"))
             {
                 System.out.println("Imagen jpg encontrada: "+urlimg);
+                //Inicio de cambios
+                String[]urlimgchida=urlimg.split(".jpg");
+                System.out.println("urlimgchida:"+urlimgchida[0]+".jpg");
+                URL urlxas=new URL(urlprincipal+urlimgchida[0]+".jpg");
+                String nuevo=urlxas.toString();
+                int contador=0;
+                for(int i=0;i<nuevo.length();i++)
+                {
+                    if(nuevo.charAt(i)=='/')
+                    {
+                        contador++;
+                    }
+                }
+                System.out.println("contador:"+contador);
+                String[]parts=nuevo.split("/");
+                System.out.println("imprimir:"+parts[contador]);
+                //Fin de cambios
+
                 if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
                 {
-                    wget2.downloadPage(urlimg,urlb+".jpg");
+                    wget2.downloadPage(urlimg,parts[contador]);
+
                 }
                 else
                 {
-                    wget2.downloadPage(urlprincipal+urlimg,urlb+".jpg");
+                    wget2.downloadPage(urlprincipal+urlimg,parts[contador]);
                     System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+
                 }
-                urlb+="a";
+                contador=0;
             }
             else if(urlimg.contains(".jpeg"))
             {
-                System.out.println("Imagen png encontrada: "+urlimg);
+                System.out.println("Imagen jpeg encontrada: "+urlimg);
+                //Inicio de cambios
+                String[]urlimgchida=urlimg.split(".jpeg");
+                System.out.println("urlimgchida:"+urlimgchida[0]+".jpeg");
+                URL urlxas=new URL(urlprincipal+urlimgchida[0]+".jpeg");
+                String nuevo=urlxas.toString();
+                int contador=0;
+                for(int i=0;i<nuevo.length();i++)
+                {
+                    if(nuevo.charAt(i)=='/')
+                    {
+                        contador++;
+                    }
+                }
+                System.out.println("contador:"+contador);
+                String[]parts=nuevo.split("/");
+                System.out.println("imprimir:"+parts[contador]);
+                //Fin de cambios
+
                 if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
                 {
-                    wget2.downloadPage(urlimg,urlb+".jpeg");
+                    wget2.downloadPage(urlimg,parts[contador]);
+
                 }
                 else
                 {
-                    wget2.downloadPage(urlprincipal+urlimg,urlb+".jpeg");
+                    wget2.downloadPage(urlprincipal+urlimg,parts[contador]);
                     System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+
                 }
-                urlb+="a";
+                contador=0;
             }
             else if(urlimg.contains(".gif"))
             {
-                System.out.println("Imagen png encontrada: "+urlimg);
+                System.out.println("Imagen gif encontrada: "+urlimg);
+                //Inicio de cambios
+                String[]urlimgchida=urlimg.split(".gif");
+                System.out.println("urlimgchida:"+urlimgchida[0]+".gif");
+                URL urlxas=new URL(urlprincipal+urlimgchida[0]+".gif");
+                String nuevo=urlxas.toString();
+                int contador=0;
+                for(int i=0;i<nuevo.length();i++)
+                {
+                    if(nuevo.charAt(i)=='/')
+                    {
+                        contador++;
+                    }
+                }
+                System.out.println("contador:"+contador);
+                String[]parts=nuevo.split("/");
+                System.out.println("imprimir:"+parts[contador]);
+                //Fin de cambios
+
                 if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
                 {
-                    wget2.downloadPage(urlimg,urlb+".gif");
+                    wget2.downloadPage(urlimg,parts[contador]);
+
                 }
                 else
                 {
-                    wget2.downloadPage(urlprincipal+urlimg,urlb+".gif");
+                    wget2.downloadPage(urlprincipal+urlimg,parts[contador]);
                     System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+
                 }
-                urlb+="a";
+                contador=0;
+
             }
             else if(urlimg.contains(".ico"))
             {
                 System.out.println("Imagen ico encontrada: "+urlimg);
+                //Inicio de cambios
+                String[]urlimgchida=urlimg.split(".ico");
+                System.out.println("urlimgchida:"+urlimgchida[0]+".ico");
+                URL urlxas=new URL(urlprincipal+urlimgchida[0]+".ico");
+                String nuevo=urlxas.toString();
+                int contador=0;
+                for(int i=0;i<nuevo.length();i++)
+                {
+                    if(nuevo.charAt(i)=='/')
+                    {
+                        contador++;
+                    }
+                }
+                System.out.println("contador:"+contador);
+                String[]parts=nuevo.split("/");
+                System.out.println("imprimir:"+parts[contador]);
+                //Fin de cambios
+
                 if(urlimg.contains(".com") || urlimg.contains(".net") || urlimg.contains(".mx") || urlimg.contains(".edu"))
                 {
-                    wget2.downloadPage(urlimg,urlb+".ico");
+                    wget2.downloadPage(urlimg,parts[contador]);
+
                 }
                 else
                 {
-                    wget2.downloadPage(urlprincipal+urlimg,urlb+".ico");
+                    wget2.downloadPage(urlprincipal+urlimg,parts[contador]);
                     System.out.println("Ruta relativa completa: "+urlprincipal+urlimg);
+
                 }
-                urlb+="a";
+                contador=0;
             }
 
         }

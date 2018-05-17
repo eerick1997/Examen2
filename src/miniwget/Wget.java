@@ -52,7 +52,10 @@ public class Wget{
                         fileOutputStream.write(bytes,0,n);
                     }
                     //System.out.println(result);
-                    createTreeDir.searchImages(result,anURL);
+                    /*Uncomment to download images
+                    createTreeDir.searchImages(result,anURL);*/
+                    //To download intern URL's
+                    createTreeDir.searchUrls(result);
                     fileOutputStream.close();
 
                 } catch (Exception e) {
@@ -66,7 +69,7 @@ public class Wget{
 
     public static void main(String[] args){
         Wget wget = new Wget();
-        wget.downloadPage("https://www.google.com","index.html");
+        wget.downloadPage("https://www.google.com.mx","Google.html");
 
 
 
