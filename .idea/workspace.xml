@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c29a415-9c8c-42ae-99c7-0dd521ae46df" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Examen2/miniwget/Directories/CreateTreeDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examen2/miniwget/Directories/CreateTreeDir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/miniwget/Wget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniwget/Wget.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,23 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Wget.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Wget.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            <state relative-caret-position="200">
+              <caret line="55" column="61" lean-forward="true" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
               <folding>
-                <element signature="e#485#2095#0" expanded="true" />
-                <element signature="e#2094#2095#0" expanded="true" />
+                <element signature="e#485#2195#0" expanded="true" />
+                <element signature="e#2194#2195#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateTreeDir.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateTreeDir.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="472">
               <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
             </state>
           </provider>
@@ -66,8 +60,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/tools_wget/Lexer.java" />
         <option value="$PROJECT_DIR$/src/Directories/CreateTreeDir.java" />
-        <option value="$PROJECT_DIR$/src/miniwget/Wget.java" />
         <option value="$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java" />
+        <option value="$PROJECT_DIR$/src/miniwget/Wget.java" />
       </list>
     </option>
   </component>
@@ -234,7 +228,7 @@
       <workItem from="1526254341225" duration="8153000" />
       <workItem from="1526312960611" duration="5383000" />
       <workItem from="1526347098869" duration="2188000" />
-      <workItem from="1526518407480" duration="5394000" />
+      <workItem from="1526518407480" duration="5476000" />
     </task>
     <task id="LOCAL-00001" summary=":''v">
       <created>1525792849455</created>
@@ -303,7 +297,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69073000" />
+    <option name="totallyTimeSpent" value="69155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -366,8 +360,8 @@
         <state relative-caret-position="918">
           <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
           <folding>
-            <element signature="e#485#2095#0" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#485#2195#0" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -606,21 +600,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-          <folding>
-            <element signature="e#485#2095#0" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="472">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniwget/Directories/CreateTreeDir.java">
+    <entry file="file://$PROJECT_DIR$/src/miniwget/Wget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="200">
+          <caret line="55" column="61" lean-forward="true" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+          <folding>
+            <element signature="e#485#2195#0" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

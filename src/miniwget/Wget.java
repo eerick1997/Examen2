@@ -52,10 +52,10 @@ public class Wget{
                         fileOutputStream.write(bytes,0,n);
                     }
                     //System.out.println(result);
-                    /*Uncomment to download images
-                    createTreeDir.searchImages(result,anURL);*/
-                    //To download intern URL's
-                    createTreeDir.searchUrls(result);
+                    //****Uncomment to download images
+                    createTreeDir.searchImages(result,anURL);
+                    //****Uncomment to download intern URL's
+                    //createTreeDir.searchUrls(result);
                     fileOutputStream.close();
 
                 } catch (Exception e) {
